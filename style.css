@@ -1,0 +1,86 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  min-width: 400px;
+  text-align: center;
+  margin: 0 auto;
+  background-color: white;
+  color: black;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-top: 10rem;
+}
+
+#bp {
+  font-size: 2rem;
+}
+
+.box {
+  display: inline-block;
+  padding: 2rem;
+}
+
+.inl {
+  display: inline;
+}
+
+#timer {
+  display: inline-block;
+  font-size: 3rem;
+  border: 3px solid black;
+  width: 20rem;
+  border-radius: 2rem;
+  padding: 1rem 5rem;
+  margin: 2rem;
+}
+
+#s-b {
+  margin: 1rem;
+}
+
+button {
+  border: none;
+  font-size: 2rem;
+  color: black;
+  background-color: white;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+#btns button{
+  line-height: 2rem;
+  width: 4rem;
+}
+
+a {
+  text-decoration: none;
+  color: crimson;
+}
+
+a:visited {
+  color: crimson;
+}
+
+#break, #session {
+  font-weight: 900;
+}
+
+#author {
+  margin-top: 3rem;
+}
+
+#author p {
+  margin: 0;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>JS Pomodoro Clock</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  
+  <body>
+    <h1>Pomodoro Clock</h1>
+     
+    <div id="bp">
+      <div id="break-container" class="box">
+        <p class="sub">Break Length</p>
+        <button class="dec">&#129075;</button>
+        <p id="break" class="inl"></p>
+        <button class="inc">&#129073;</button>
+      </div>
+
+      <div id="session-container" class="box">
+        <p class="sub">Session Length</p>
+        <button class="dec">&#129075;</button>
+        <p id="session" class="inl"></p>
+        <button class="inc">&#129073;</button>
+      </div>
+    </div>
+    
+    <div id="timer">
+      <p id="s-b"></p>
+      <p id="s-min" class="inl"></p>
+      <p class="inl">:</p>
+      <p id="s-sec" class="inl"></p>
+    </div>
+    
+    <div id="btns">
+      <button id="play-pause"></button>
+      <button id="reset">&#10227;</button>
+    </div>
+    
+    <div id="author">
+      <p>Coded by</p>
+      <p><a href="https://github.com/kirillskvortsov">Kirill Skvortsov</a></p>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
